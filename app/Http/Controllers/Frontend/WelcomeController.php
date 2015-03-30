@@ -1,6 +1,6 @@
-<?php namespace App\Http\Controllers;
+<?php namespace App\Http\Controllers\Frontend;
 
-class WelcomeController extends Controller {
+class WelcomeController extends FrontendController {
 
 	/*
 	|--------------------------------------------------------------------------

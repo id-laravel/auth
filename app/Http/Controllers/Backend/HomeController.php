@@ -1,6 +1,6 @@
-<?php namespace App\Http\Controllers;
+<?php namespace App\Http\Controllers\Backend;
 
-class HomeController extends Controller {
+class HomeController extends BackendController {
 
 	/*
 	|--------------------------------------------------------------------------
