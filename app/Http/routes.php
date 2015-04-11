@@ -15,8 +15,8 @@ Route::group(['namespace' => 'Frontend'], function(){
     Route::get('/', 'WelcomeController@index');
 });
 
-Route::group(['namespace' => 'Backend'], function(){
-    Route::get('home', 'HomeController@index');
+Route::group(['namespace' => 'Backend', 'prefix' => 'my'], function(){
+    Route::get('profile', 'ProfileController@index');
 });
 
 Route::controllers([

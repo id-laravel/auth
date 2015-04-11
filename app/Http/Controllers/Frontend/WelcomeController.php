@@ -20,7 +20,7 @@ class WelcomeController extends FrontendController {
 	 */
 	public function __construct()
 	{
-		$this->middleware('guest');
+		//$this->middleware('guest');
 	}
 
 	/**

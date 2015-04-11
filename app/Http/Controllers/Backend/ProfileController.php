@@ -1,6 +1,6 @@
 <?php namespace App\Http\Controllers\Backend;
 
-class HomeController extends BackendController {
+class ProfileController extends BackendController {
 
 	/*
 	|--------------------------------------------------------------------------
@@ -30,7 +30,7 @@ class HomeController extends BackendController {
 	 */
 	public function index()
 	{
-		return view('backend.home');
+		return view('backend.profile');
 	}
 
 }
